@@ -1,0 +1,791 @@
+/* 
+Title: plain.css 1.0
+Author: Florian Schimanski, Tobias Wenz
+
+plain.css removes default styles from html tags.
+Everything NOT default is commented. 
+*/
+
+:focus, :active, :target {
+    outline: inherit; /* default: 1px glow */
+    }
+    
+    a:link, a:visited { 
+    color: inherit; /* default: blue, red (:active), purple (:visited) */
+    text-decoration: inherit; /* default: underline */
+    }
+
+    a:link:active, a:visited:active {
+    color: inherit; /* default: blue, red (:active), purple (:visited) */
+    }
+    
+    abbr { 
+    display: inline;
+    }
+    
+    address { 
+    display: block;
+    font-style: inherit; /* default: italic */
+    }
+    
+    area { 
+    display: none;
+    }
+    
+    article { 
+    display: block;
+    }
+    
+    aside { 
+    display: block;
+    }
+    
+    /* 
+    audio {
+    No default CSS.
+    } 
+    */
+    
+    b { 
+    font-weight: inherit; /* default: bold. Use font-family and the bold typeface file instead */
+    }
+    
+    /* 
+    base {
+    No default CSS.
+    } 
+    */
+    
+    /* 
+    bdi {
+    No default CSS.
+    } 
+    */
+    
+    bdo {
+    unicode-bidi: bidi-override;
+    }
+    
+    blockquote {
+    display: block;
+    margin: 0;
+    /* default:
+    margin-block-start: 1em; 
+    margin-block-end: 1em; 
+    margin-inline-start: 1em; 
+    margin-inline-end: 1em; 
+    */
+    }
+    
+    body {
+    display: block;
+    margin: 0; /* default: 8px */
+    }
+    
+    /* 
+    br {
+    No default CSS.
+    } 
+    */
+    
+    button {
+    align-items: flex-start;
+    text-align: start; /* default: center */
+    color: inherit; /* default: buttontext */
+    padding: 0; /* default: 2px 6px 3px 6px */
+    border: 0; 
+    /* default:
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: outset;
+    border-right-style: outset;
+    border-bottom-style: outset;
+    border-left-style: outset;
+    border-top-color: buttonface;
+    border-right-color: buttonface;
+    border-bottom-color: buttonface;
+    border-left-color: buttonface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    */
+    background-color: transparent;  /* default: buttonface */
+    box-sizing: content-box; /* default: border-box */
+    
+    margin: 0; /* default: 0em 0 0 0 */
+    font-style: inherit; /* default: normal */
+    font-weight: inherit; /* default: 400 */
+    font-size: inherit; /* default: 11px */
+    font-family: inherit; /* default: system-ui */
+    font-variant-caps: normal;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    cursor: pointer;
+    writing-mode: horizontal-tb;
+    }
+    
+    /* 
+    canvas {
+    No default CSS.
+    } 
+    */
+    
+    caption {
+    display: table-caption;
+    text-align: left; /* default: center */
+    }
+    
+    
+    cite {
+    font-style: inherit; /* default: italic */
+    }
+    
+    code {
+    font-family: monospace;
+    }
+    
+    col { 
+    display: table-column;
+    }
+    
+    colgroup { 
+    display: table-column-group;
+    }
+    
+    /* 
+    data {
+    No default CSS.
+    } 
+    */  
+    
+    datalist { 
+    display: none;
+    }
+    
+    dd { 
+    display: block;
+    margin: 0; /* default: 0 0 0 40px */
+    }
+    
+    del {
+    text-decoration: inherit; /* default: line-through */
+    }
+    
+    details { 
+    display: block;
+    }
+    
+    dfn {
+    font-style: inherit; /* default: italic */
+    }
+    
+    /* 
+    dialog {
+    No default CSS.
+    } 
+    */  
+    
+    div {
+    display: block;
+    }
+    
+    dl {
+    display: block;
+    margin: 0; /* default: 1em 0 */
+    }
+    
+    dt { 
+    display: block;
+    }
+    
+    em { 
+    font-style: inherit; /* default: italic */
+    }
+    /*
+    embed {
+    To display a picture, it is better to use the <img> tag.
+    To display HTML, it is better to use the <iframe> tag.
+    To display video or audio, it is better to use the <video> and <audio> tags.
+    }
+    */
+    
+    embed:focus {
+    outline: none;
+    }
+    
+    fieldset { 
+    display: block;
+    margin: 0; /* default: 0 2px */
+    padding: 0; /* default: 0.35em 0.75em */
+    border: none; /* default: 2px groove (internal value) */
+    }
+    
+    figcaption { 
+    display: block;
+    }
+    
+    figure { 
+    display: block;
+    margin: 0; /* default: 1em 40px */
+    }
+    
+    footer { 
+    display: block;
+    }
+    
+    form {
+    display: block;
+    margin: 0; /* default: 0em 0 0 0 */
+    }
+    
+    h1 {
+    display: block;
+    font-size: inherit; /* default: 2em */
+    margin: 0; /* default: 0.67em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    h2 {
+    display: block;
+    font-size: inherit; /* default: 1.5em */
+    margin: 0; /* default: 0.83em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    h3 {
+    display: block;
+    font-size: inherit; /* default: 1.17em */
+    margin: 0; /* default: 1em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    h4 {
+    display: block;
+    margin: 0; /* default: 1.33em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    h5 {
+    display: block;
+    font-size: inherit; /* default: 0.83em */
+    margin: 0; /* default: 1.67em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    h6 {
+    display: block;
+    font-size: inherit; /* default: 0.67em */
+    margin: 0; /* default: 2.33em 0 */
+    font-weight: inherit; /* default: bold */
+    }
+    
+    head { 
+    display: none;
+    }
+    
+    header { 
+    display: block;
+    }
+    
+    hr { 
+    display: block;
+    margin: 0; /* default: 0.5em auto */
+    
+    /* default:
+    border-style: inset;
+    border-width: 1px;
+    */
+    /* more consistent: */
+    border:0; 
+    height: 1px;
+    background: #000;
+    }
+    
+    i { 
+    font-style: inherit; /* default: italic. Use font-family and the italic typeface file instead */
+    }
+    
+    html { 
+    display: block;
+    }
+    
+    html:focus { 
+    outline: none;
+    }
+    
+    iframe:focus { 
+    outline: none;
+    }
+    
+    iframe[seamless] { 
+    display: block;
+    }
+    
+    iframe {
+    border:0;
+    /* default: 
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    */
+    }
+    
+    img { 
+    display: inline-block;
+    }
+    
+    input {
+    color: inherit; /* default: text */
+    border:0;
+    /* default:
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: inset;
+    border-right-style: inset;
+    border-bottom-style: inset;
+    border-left-style: inset;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    */
+    padding: 0; /* default: 1px 0 0 0 */
+    
+    margin: 0; /* default: 0em 0 0 0 */
+    font-style: inherit; /* default: normal */
+    font-weight: inherit; /* default: normal */
+    font-size: inherit; /* default: 11px */
+    font-family: inherit; /* default: system-ui */
+    font-variant-caps: inherit; /* default: normal */
+    color: inherit; /* default: initial */
+    letter-spacing: inherit; /* default: normal */
+    word-spacing: inherit; /* default: normal */
+    line-height: inherit; /* default: normal */
+    text-transform: inherit; /* default: none */
+    text-indent: inherit; /* default: 0px */
+    text-shadow: inherit; /* default: none */
+    display: inline-block;
+    text-align: start;
+    }
+    
+    ins {
+    text-decoration: inherit; /* default: underline */
+    }
+    
+    kbd {
+    font-family: inherit; /* default: monospace */
+    }
+    
+    legend {
+    display: block;
+    padding: 0; /* default: 0 2px */
+    border: none;
+    }
+    
+    li {
+    display: list-item;
+    list-style: none;
+    }
+    
+    link {
+    display: none;
+    }
+    
+    /* 
+    main {
+    No default CSS.
+    } 
+    */  
+    
+    map {
+    display: inline;
+    }
+    
+    mark {
+    background-color: transparent; /* default: yellow */
+    color: inherit; /* default: black */
+    }
+    
+    /* 
+    meta {
+    No default CSS.
+    } 
+    */ 
+    
+    /* 
+    meter {
+    No default CSS.
+    } 
+    */ 
+    
+    nav {
+    display: block;
+    }
+    
+    /* 
+    noscript {
+    No default CSS.
+    } 
+    */ 
+    
+    /* object {
+    No default CSS.
+    
+    To embed a picture, it is better to use the <img> tag.
+    To embed HTML, it is better to use the <iframe> tag.
+    To embed video or audio, it is better to use the <video> and <audio> tags.
+    }
+    */
+    
+    object:focus {
+    outline: none;
+    }
+    
+    ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 0; /* default: 1em 0*/
+    padding:0; /* default: 0 0 0 40px */
+    }
+    
+    /* 
+    optgroup {
+    No default CSS.
+    } 
+    */
+    
+    /* 
+    option {
+    No default CSS.
+    } 
+    */
+    
+    output {
+    display: inline;
+    }
+    
+    p {
+    display: block;
+    margin: 0; /* default: 1em 0*/
+    }
+    
+    param {
+    display: none;
+    }
+    
+    /* 
+    picture {
+    No default CSS.
+    } 
+    */
+    
+    pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 0; /* default: 1em 0 */
+    }
+    
+    /* 
+    progress {
+    No default CSS.
+    } 
+    */
+    
+    q { 
+    display: inline;
+    }
+    
+    q:before { 
+    content: open-quote;
+    }
+    
+    q:after { 
+    content: close-quote;
+    }
+    
+    /* 
+    rp {
+    No default CSS.
+    } 
+    */
+    
+    rt {
+    line-height: normal;
+    }
+    
+    /* 
+    ruby {
+    No default CSS.
+    } 
+    */
+    
+    s { 
+    text-decoration: none; /* default: line-through */
+    }
+    
+    samp { 
+    font-family: inherit; /* default: monospace */
+    }
+    
+    script {
+    display: none;
+    }
+    
+    section { 
+    display: block;
+    }
+    
+    select {
+    box-sizing: border-box;
+    border : 0; 
+    /* default:
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    */
+    color: inherit; /* default: text */
+    align-items: left; /* default: center */
+    white-space: pre;
+    
+    border-radius: 0px;
+    /* default:
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    */
+    
+    margin: 0; /* default: 0em 0 0 0 */
+    font-style: inherit; /* default: normal */
+    font-weight: inherit; /* default: 400 */
+    font-size: inherit; /* default: 11px */
+    font-family: inherit; /* default: system-ui */
+    font-variant-caps: inherit; /* default: normal */
+    letter-spacing: inherit; /* default: normal */
+    word-spacing: inherit; /* default: normal */
+    line-height: inherit; /* default: normal */
+    text-transform: inherit; /* default: none */
+    text-indent: inherit; /* default: 0px */
+    text-shadow: inherit; /* default: none */
+    display: inline-block;
+    text-align: start;
+    }
+    
+    small {
+    font-size: inherit; /* default: smaller */
+    }
+    
+    /* 
+    source {
+    No default CSS.
+    } 
+    */
+    
+    /* 
+    span {
+    No default CSS.
+    } 
+    */
+    
+    strong {
+    font-weight: inherit; /* default: bold */
+    }
+    
+    style {
+    display: none;
+    }
+    
+    sub {
+    /* use stylistic set instead*/
+    vertical-align: inherit; /* default: sub */
+    font-size: inherit; /* default: smaller */
+    }
+    
+    summary {
+    display: block;
+    }
+    
+    sup {
+    /* use stylistic set instead*/
+    vertical-align: inherit; /* default: super */
+    font-size: inherit; /* default: smaller */
+    }
+    
+    /* 
+    svg {
+    No default CSS.
+    } 
+    */
+    
+    table {
+    display: table;
+    border-collapse: collapse; /* default: separate */
+    border-spacing: 0; /* default: 2px */
+    border-color: transparent; /* default: gray */
+    border: 0;
+    }
+    
+    /* 
+    template {
+    No default CSS.
+    } 
+    */
+    
+    textarea {
+    color: inherit; /* default: text */
+    border: none;
+    /* default:
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    */
+    padding: 0; /* default: 2px 0 0 0 */
+    flex-direction: column;
+    resize: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    
+    margin: 0; /* default: 0em 0 0 0 */
+    font-style: inherit; /* default: normal */
+    font-weight: inherit; /* default: 400 */
+    font-size: inherit; /* default: 11px */
+    font-family: inherit; /* default: system-ui */
+    font-variant-caps: inherit; /* default: normal */
+    color: inherit; /* default: initial */
+    letter-spacing: inherit; /* default: normal */
+    word-spacing: inherit; /* default: normal */
+    line-height: inherit; /* default: normal */
+    text-transform: inherit; /* default: none */
+    text-indent: 0px; 
+    text-shadow: inherit; /* default: none */
+    display: inline-block;
+    text-align: start;
+    background: transparent;
+    }
+    
+    tfoot {
+    display: table-footer-group;
+    vertical-align: inherit; /* default: middle */
+    border-color: inherit;	
+    }
+    
+    th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: inherit; /* default: bold */
+    text-align: inherit;	 /* default: center */
+    }
+    
+    thead {
+    display: table-header-group;
+    vertical-align: inherit; /* default: middle */
+    border-color: inherit;
+    }
+    
+    /* 
+    time {
+    No default CSS.
+    } 
+    */
+    
+    title {
+        display: none;
+    }
+    
+    tr {
+        display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    }
+    
+    /* 
+    track {
+    No default CSS.
+    } 
+    */
+    
+    u {
+        text-decoration: underline;
+    }
+    
+    ul {
+        display: block;
+    list-style-type: disc;
+    margin: 0; /* default: 1em 0 1em 0 */
+    padding: 0; /* default: 0 0 0 40px */
+    }
+    
+    var {
+        font-style: inherit; /* default: italic */
+    }
+    
+    /* 
+    video {
+    No default CSS.
+    } 
+    */
+    
+    /* 
+    wbr {
+    No default CSS.
+    } 
+    */

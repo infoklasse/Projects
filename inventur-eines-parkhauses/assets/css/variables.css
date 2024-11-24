@@ -1,0 +1,36 @@
+:root {
+  --shade-1:hsl(0, 0%, 90%);
+  --shade-2:hsl(0, 0%, 75%);
+  --shade-3:hsl(0, 0%, 55%);
+  --shade-4:hsl(0, 0%, 35%);
+  --shade-5:hsl(0, 0%, 10%);
+
+  --gap: 0.5rem;
+
+  --black: rgb(45, 45, 45);
+  --white: rgb(255, 255, 255);
+  --blue: rgb(28, 28, 170);
+  --green: rgb(35, 165, 35);
+  --grey: rgb(132, 132, 132);
+  --red: rgb(246, 29, 29);
+  --silver: rgb(190, 190, 190);
+  --yellow: rgb(246, 242, 0);
+  --beige: rgb(227, 225, 192);
+  --gold: rgb(243, 172, 8);
+  --orange: rgb(252, 122, 0);
+  --brown: rgb(114, 70, 4);
+  --pink: rgb(255, 8, 218);
+
+  --floor1: black;
+  --floor2: rgba(241, 225, 0);
+  --floor3: rgb(255, 72, 0);
+  --floor4: rgb(255, 72, 0);
+  --floor5: rgb(140, 197, 227);
+  --floor6: rgb(167, 167, 167);
+  --floor7: rgb(127, 108, 20);
+  --floor8: rgb(0, 129, 13);
+  --floor9: rgb(186, 25, 57);
+  --floor10: rgb(57, 114, 220);
+  --floor11: rgb(105, 51, 46);
+  --floor12: rgb(135, 192, 121);
+}
