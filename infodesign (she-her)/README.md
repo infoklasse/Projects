@@ -4,4 +4,4 @@ You might have heard from Florence Nightingale. But does Emma Willard ring a bel
 
 What started with weekly presentations of our research developed into a group project that is aiming to raise awareness for the inspiring work of these women. The result is this website and accompanying posters. We hope you spread the word and will ask your friends and family: Did you know…?
 
-[Website](https://infoklasse.github.io/Projects/infodesign-(she-her)/)
+[Website](https://infoklasse.github.io/Projects/infodesign%(she-her)/)
