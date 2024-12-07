@@ -1,0 +1,5 @@
+:root{
+    --anav: 15px;
+    --p_slider: calc(6vw + 10px); 
+    --headline: calc(5vw + 30px);
+}

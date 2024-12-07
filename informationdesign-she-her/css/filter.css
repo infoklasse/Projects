@@ -1,0 +1,264 @@
+@import "index.css";
+@import "colors.css";
+@import "global.css";
+
+body{
+  background-color: #fff7d1;
+  padding: 0;
+  margin: 0;
+}
+
+
+.boxItem:last-child{
+  margin-right: 0;
+}
+
+.boxItem > div {
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+cursor: pointer;
+}
+
+#filterbtn{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.btngrid{
+  display: grid;
+  grid-template-columns: 20% 20% 20% ; 
+  gap: 10px;
+  height: 300px;
+  justify-content: center;
+  width:auto;
+}
+
+button{
+  font-family: 'AUTHENTIC Sans';
+  font-size: 15px;
+  background-color: transparent;
+  padding: 10px;
+  border: 3px solid ;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.btn01{
+  margin-right: 2px;
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.gridA, .gridS, .gridM{
+ display: grid;
+ gap: 10px;
+ height: 40px;
+}
+
+.filterbtnA{
+  margin-right: 2px;
+  border-radius: 30px;
+  border: 3px solid var(--tag1color);
+  padding: 10px;
+  gap: 30px;
+  box-shadow: inset;
+  color: rgb(0, 0, 0);
+}
+
+.filterbtnS{
+  margin-right: 2px;
+  border: 3px solid var(--tag3color);  
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.filterbtnM{
+  margin-right: 2px;
+  border:3px solid var(--tag2color) ;  
+  padding: 10px;
+  gap: 30px;
+  color: rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+#itemWrapper{
+  padding: 10px;
+  gap: 20px;
+  display:block;
+}
+
+
+.titlep{
+  font-size: 7vw;
+  text-align: center;
+  font-family: Ortica;
+  margin-top: 0;
+}
+
+.subcontainer{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  
+}
+.tagbtn1{
+  font-family: 'AUTHENTIC Sans';
+  font-size: var(--anav);
+  border-radius: 30px;
+  border: 3px solid var(--tag1color);
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.tagbtn2{
+  font-family: 'AUTHENTIC Sans';
+  font-size: var(--anav);
+  border-radius: 30px;
+  border:3px solid var(--tag2color) ;  
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+
+}
+
+.tagbtn3{
+  font-family: 'AUTHENTIC Sans';
+  font-size: var(--anav);
+  border-radius: 30px;
+  border: 3px solid var(--tag3color);  
+  padding: 10px 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+  
+}
+.tagbtn1:hover, .tagbtn2:hover, .tagbtn3:hover{
+  cursor: default;
+}
+
+
+.cliked {
+  /* text-decoration: underline;
+  text-decoration-thickness: 2px; */
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.unCliked {
+  color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 700px){
+
+  .btngrid{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: baseline;
+    justify-items: center;
+
+  }
+
+  button{
+    font-family: 'AUTHENTIC Sans';
+    font-size: 10px;
+    background-color: transparent;
+    border: 2px solid ;
+    padding: 5px;
+    gap: 30px;
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+
+  }
+  .filterbtnA{
+    margin-right: 2px;
+    border-radius: 30px;
+    border: 3px solid var(--tag1color);
+    padding: 5px;
+    box-shadow: inset;
+    color: rgb(0, 0, 0);
+  }
+
+  .filterbtnS{
+    margin-right: 2px;
+    border: 3px solid var(--tag3color);  
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+  .filterbtnM{
+    margin-right: 2px;
+    background-color:transparent;
+    border:3px solid var(--tag2color);  
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+
+  .tagbtn1{
+  font-family: 'AUTHENTIC Sans';
+  font-size:10px;
+  border-radius: 30px;
+  border: 1.5px solid var(--tag1color);
+  padding: 3px 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.tagbtn2{
+  font-family: 'AUTHENTIC Sans';
+  font-size: 10px;
+  border-radius: 30px;
+  border:1.5px solid var(--tag2color) ;  
+  padding: 3px 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+
+}
+
+.tagbtn3{
+  font-family: 'AUTHENTIC Sans';
+  font-size: 10px;
+  border-radius: 30px;
+  border: 1.5px solid var(--tag3color);  
+  padding: 3px 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(0, 0, 0);
+  
+}
+  .cliked {
+    /* text-decoration: underline;
+    text-decoration-thickness: 2px; */
+    background-color: rgb(39, 39, 39);
+    color: white;
+  }
+  
+  .unCliked {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+}
