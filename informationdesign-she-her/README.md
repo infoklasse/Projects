@@ -4,4 +4,8 @@ You might have heard from Florence Nightingale. But does Emma Willard ring a bel
 
 What started with weekly presentations of our research developed into a group project that is aiming to raise awareness for the inspiring work of these women. The result is this website and accompanying posters. We hope you spread the word and will ask your friends and family: Did you know…?
 
+The class was held by Nina Bender as an optional subject for students of the Infoklasse at Universität der Künste Berlin, Germany.
+In case you are missing someone in our list of women: We are fully aware that our selection can only be exactly that (a selection).
+Since this website is the product of a single semester we might not be able to update it after its launch in February 2023.
+
 [Website](https://infoklasse.github.io/Projects/informationdesign-she-her/)
