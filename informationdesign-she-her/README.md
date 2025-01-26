@@ -10,4 +10,5 @@ The class was held by Nina Bender as an optional subject for students of the Inf
 In case you are missing someone in our list of women: We are fully aware that our selection can only be exactly that (a selection).
 Since this website is the product of a single semester we might not be able to update it after its launch in February 2023.
 
-[Website](https://infoklasse.github.io/Projects/informationdesign-she-her/)
+- [Website](https://infoklasse.github.io/Projects/informationdesign-she-her/)
+- [Dataset](https://github.com/infoklasse/Datasets/tree/7063828ed2b288337e9697444c80a4273eb2f947/informationdesign-she-her)
