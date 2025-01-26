@@ -1,4 +1,5 @@
 # Informationdesign (she/her)
+## Nour Al Safadi, Dara Elena Bubel, Quan Minh Ha, Mario Kreuzer, Thomas Kuhn, Annick Rietz, Miriam Seith
 
 You might have heard from Florence Nightingale. But does Emma Willard ring a bell? Probably not. This is why we felt it is time to shed light on women who contributed (and currently are contributing) to the field of information design. During the winter semester 2022/23 our course held at the Infoklasse at Universität der Künste in Berlin initiated a collaborative research. We found not only female designers, but also cartographers, scientists, and even a cookbook author. Some of them might be an obvious choice, others used methods of categorization, documentation, and visualization that are well-known in information design.
 
