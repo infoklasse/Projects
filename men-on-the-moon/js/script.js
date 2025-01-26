@@ -133,7 +133,7 @@ var map = L.map('map', {
 
 /* load geojson features */
 // 1. nearside of the moon
-var nearSide = L.geoJSON.ajax('../data/nearside.geojson', {
+var nearSide = L.geoJSON.ajax('./data/nearside.geojson', {
   style: {
     fillColor: 'white',
     color: 'white',
@@ -147,7 +147,7 @@ var nearSide = L.geoJSON.ajax('../data/nearside.geojson', {
 }).addTo(map);
 
 // 2. craters
-var geojsonLayer = L.geoJSON.ajax('../data/craters.geojson', {
+var geojsonLayer = L.geoJSON.ajax('./data/craters.geojson', {
   style: {
     fillColor: 'black',
     color: 'white',
