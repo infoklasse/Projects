@@ -133,7 +133,7 @@ var map = L.map('map', {
 
 /* load geojson features */
 // 1. nearside of the moon
-var nearSide = L.geoJSON.ajax('nearside.geojson', {
+var nearSide = L.geoJSON.ajax('../data/nearside.geojson', {
   style: {
     fillColor: 'white',
     color: 'white',
@@ -147,7 +147,7 @@ var nearSide = L.geoJSON.ajax('nearside.geojson', {
 }).addTo(map);
 
 // 2. craters
-var geojsonLayer = L.geoJSON.ajax('craters.geojson', {
+var geojsonLayer = L.geoJSON.ajax('../data/craters.geojson', {
   style: {
     fillColor: 'black',
     color: 'white',
@@ -198,17 +198,6 @@ L.graticule({
     color: '#bbb',
     weight: 0.5,
     opacity: 1
-  }
-}).addTo(map);
-
-// 5. earth
-L.geoJson(countries, {
-  style: {
-    color: '#000',
-    weight: 0.5,
-    opacity: 0,
-    fillColor: 'white',
-    fillOpacity: 0
   }
 }).addTo(map);
 
