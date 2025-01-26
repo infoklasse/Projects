@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Rom";
+  font-weight: 400;
+  src: url("../fonts/ABCROM-Regular-Trial.otf")
+}
+
+@font-face {
+  font-family: "Rom";
+  font-weight: 800;
+  src: url("../fonts/ABCROM-Heavy-Trial.otf") 
+}
