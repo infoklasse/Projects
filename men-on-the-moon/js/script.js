@@ -133,7 +133,7 @@ var map = L.map('map', {
 
 /* load geojson features */
 // 1. nearside of the moon
-var nearSide = L.geoJSON.ajax('../data/nearside.geojson', {
+var nearSide = L.geoJSON.ajax('https://github.com/infoklasse/Projects/blob/72bfcb166fcc669aaadcff5bb17732f56fe35d25/men-on-the-moon/data/nearside.geojson', {
   style: {
     fillColor: 'white',
     color: 'white',
